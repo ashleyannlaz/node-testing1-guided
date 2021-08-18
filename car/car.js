@@ -15,11 +15,12 @@ class Car {
     this.make = make
   }
   drive(distance) {
-    this.odometer+= distance
+    this.odometer += distance
     return this.odometer
   }
-  driveAsync(distance) {
-    
+  async driveAsync(distance) {
+    this.odometer += distance
+    return this.odometer
   }
 }
 

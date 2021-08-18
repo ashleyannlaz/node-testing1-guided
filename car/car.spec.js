@@ -19,13 +19,10 @@ describe('badCar', () => { // describe (just for organizing)
 })
 
 describe('Car class', () => {
-
   let prius
   beforeEach(() => {
-    prius = new Car('toyota')
+    prius = new Car('toyota', 'prius')
   })
-
-
   it('exists', () => {
     // with TDD
     // 1- write the simplest test that will fail
@@ -40,8 +37,6 @@ describe('Car class', () => {
     expect(car).toBeInstanceOf(Car)
   })
   it('can build a car with make and model', () => {
-    // build an instance
-    const prius = new Car('toyota', 'prius')
     // assert that it has certain props...
     expect(prius).toHaveProperty('make')
     expect(prius).toHaveProperty('model')

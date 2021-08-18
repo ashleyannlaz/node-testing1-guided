@@ -11,7 +11,7 @@ function badCar() {
 class Car {
   constructor(make, model) {
     this.make = make
-    this.model = modle
+    this.model = model
   }
 }
 

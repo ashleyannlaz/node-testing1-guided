@@ -47,4 +47,7 @@ describe('Car class', () => {
     expect(prius).toEqual({ make: 'toyota', model: 'prius' }) // bad!
     expect(prius).toMatchObject({ make: 'toyota', model: 'prius' }) // better
   })
+  it('new cars have an "odometer" prop initialized at zero', () => {
+    
+  })
 })

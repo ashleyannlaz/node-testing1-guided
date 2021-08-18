@@ -12,6 +12,6 @@ describe('badCar', () => { // describe (just for organizing)
     const actualValue = badCar()
     const expectedValue = { make: 'Toyota' }
 
-    expect(actualValue).toBe
+    expect(actualValue).toEqual(expectedValue)
   })
 })

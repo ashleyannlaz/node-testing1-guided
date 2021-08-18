@@ -16,7 +16,7 @@ class Car {
   }
   drive(distance) {
     this.odometer+= distance
-    return 10
+    return this.odometer
   }
 }
 

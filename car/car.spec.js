@@ -70,8 +70,10 @@ describe('Car class', () => {
     prius.drive(5)
     expect(prius.odometer).toBe(15)
   })
-  it('driving returns the update odometer', () => {
+  it('driving returns the updated odometer', () => {
     // testing the return value of the method
     expect(prius.drive(10)).toBe(10)
+    expect(prius.drive(10)).toBe(20)
+    expect(prius.drive(10)).toBe(30)
   })
 })

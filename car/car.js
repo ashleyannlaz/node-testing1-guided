@@ -11,6 +11,7 @@ function badCar() {
 class Car {
   constructor() {
     this.make = 'toyota'
+    this.model = 'prius'
   }
 }
 

@@ -36,6 +36,7 @@ describe('Car class', () => {
     // build an instance
     const prius = new Car()
     // assert that it has certain props...
+    expect(prius.make)
     expect(prius).toHaveProperty('make')
     expect(prius).toHaveProperty('model')
     // assert that it has certain props with certain values...

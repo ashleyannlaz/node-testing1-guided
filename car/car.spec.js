@@ -6,8 +6,8 @@ test('that it werkz', () => { // this is a test
   expect(true).not.toBe(false) // this is another assertion
 })
 
-describe('badCar', () => {
-  it('that it is a toyota', () => {
-
+describe('badCar', () => { // describe (just for organizing)
+  it('returns a toyota', () => { // test
+    // c
   })
 })

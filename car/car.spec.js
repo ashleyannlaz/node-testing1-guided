@@ -19,6 +19,13 @@ describe('badCar', () => { // describe (just for organizing)
 })
 
 describe('Car class', () => {
+
+  let prius
+  beforeEach(() => {
+    prius = new Car('toyota')
+  })
+
+
   it('exists', () => {
     // with TDD
     // 1- write the simplest test that will fail

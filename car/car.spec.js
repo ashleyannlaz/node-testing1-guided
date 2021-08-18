@@ -57,6 +57,6 @@ describe('Car class', () => {
     expect(prius.odometer).toBe(0)
   })
   it('cars have a drive method', () => {
-    // you
+    expect(prius.drive)
   })
 })

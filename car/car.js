@@ -8,7 +8,11 @@ function badCar() {
 /**
  * Car class
  */
-class Car {}
+class Car {
+  constructor() {
+    this.make = 'toyota'
+  }
+}
 
 module.exports = {
   badCar,

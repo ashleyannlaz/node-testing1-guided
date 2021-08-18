@@ -32,5 +32,7 @@ describe('Car class', () => {
     // assert that it's an instance of Car
     expect(car).toBeInstanceOf(Car)
   })
-  it('can build a ')
+  it('can build a car with make and model', () => {
+    
+  })
 })

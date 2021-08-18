@@ -13,6 +13,7 @@ class Car {
     this.odometer = 0
     this.model = model
     this.make = make
+    this.drive = 7
   }
 }
 

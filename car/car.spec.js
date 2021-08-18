@@ -57,6 +57,8 @@ describe('Car class', () => {
     expect(prius.odometer).toBe(0)
   })
   it('cars have a drive method', () => {
-    expect(prius).toHaveProperty('drive')
+    expect(prius.drive).toBeDefined()
+    expect(prius.drive).toBeInstanceOf(Function)
+    expect
   })
 })

@@ -23,6 +23,7 @@ describe('Car class', () => {
     // with TDD
     // 1- write the simplest test that will fail
     // 2- write the least amount of code that will pass the test
+    // 3- reward yourself by refactoring the code
     expect(Car).toBeDefined()
   })
 })

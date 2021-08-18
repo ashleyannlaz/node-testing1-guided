@@ -10,8 +10,8 @@ function badCar() {
  */
 class Car {
   constructor(make, model) {
-    this.make = model
-    this.model = make
+    this.make = make
+    this.model = modle
   }
 }
 

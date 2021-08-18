@@ -34,7 +34,7 @@ describe('Car class', () => {
   })
   it('can build a car with make and model', () => {
     // build an instance
-    const prius = new Car()
+    const prius = new Car('toyota', 'prius')
     // assert that it has certain props...
     expect(prius).toHaveProperty('make')
     expect(prius).toHaveProperty('model')

@@ -50,5 +50,6 @@ describe('Car class', () => {
   it('new cars have an "odometer" prop initialized at zero', () => {
     // you!
     // 1- simplest test that will fail!
+    const car = new Car('Kia', 'Spectra')
   })
 })

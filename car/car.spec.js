@@ -26,4 +26,7 @@ describe('Car class', () => {
     // 3- reward yourself by refactoring the code
     expect(Car).toBeDefined()
   })
+  it('can build instances of cars', () => {
+    
+  })
 })

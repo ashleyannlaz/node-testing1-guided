@@ -33,6 +33,8 @@ describe('Car class', () => {
     expect(car).toBeInstanceOf(Car)
   })
   it('can build a car with make and model', () => {
-    
+    // build an instance
+    // assert that it has certain props with certain values
+    // assert that it is an object of a certain shape...
   })
 })

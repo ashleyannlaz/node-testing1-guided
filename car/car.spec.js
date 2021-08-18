@@ -22,6 +22,7 @@ describe('Car class', () => {
   it('exists', () => {
     // with TDD
     // 1- write the simplest test that will fail
+    // 2- write the least amount of code that will pass the test
     expect(Car).toBeDefined()
   })
 })

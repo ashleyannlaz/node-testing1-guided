@@ -30,6 +30,7 @@ describe('Car class', () => {
     // make an instance of a car with our Car class
     const car = new Car()
     // assert that it's an instance of Car
-    expect(car).
+    expect(car).toBeInstanceOf(Car)
   })
+  it('can build a ')
 })

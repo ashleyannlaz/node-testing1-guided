@@ -19,6 +19,7 @@ class Car {
     return this.odometer
   }
   async driveAsync(distance) {
+    // this returns a promise (not the odometer)
     this.odometer += distance
     return this.odometer
   }

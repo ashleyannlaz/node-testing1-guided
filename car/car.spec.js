@@ -8,6 +8,8 @@ test('that it werkz', () => { // this is a test
 
 describe('badCar', () => { // describe (just for organizing)
   it('returns a toyota', () => { // test
-    // c
+    // comparing expected against actual
+    const actualValue = badCar()
+    const expectedValue = { make: 'Toyota' }
   })
 })

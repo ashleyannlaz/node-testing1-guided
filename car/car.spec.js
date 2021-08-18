@@ -1,3 +1,5 @@
+const {} = require('./car')
+
 test('that it werkz', () => { // this is a test
   // empty test is a FALSE POSITIVE
   expect({}).toEqual({}) // this is an assertion

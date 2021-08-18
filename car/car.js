@@ -14,7 +14,9 @@ class Car {
     this.model = model
     this.make = make
   }
-  drive(){}
+  drive(distance) {
+    this.odometer = this.odometer + distance
+  }
 }
 
 module.exports = {

@@ -34,6 +34,7 @@ describe('Car class', () => {
   })
   it('can build a car with make and model', () => {
     // build an instance
+    const prius = new Car()
     // assert that it has certain props with certain values
     // assert that it is an object of a certain shape...
   })

@@ -28,7 +28,8 @@ describe('Car class', () => {
   })
   it('can build instances of cars', () => {
     // make an instance of a car with our Car class
-    
+    const car = new Car()
     // assert that it's an instance of Car
+    expect(car).
   })
 })

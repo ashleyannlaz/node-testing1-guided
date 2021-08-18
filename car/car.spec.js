@@ -64,12 +64,14 @@ describe('Car class', () => {
   it('driving a distance adds miles to the odometer', () => {
     // see the importance of gettin a fresh car for each test
     // expect(prius.odometer).toBe(0) // REDUNDANT
+    // testing the internal state of the car
     prius.drive(10)
     expect(prius.odometer).toBe(10)
     prius.drive(5)
     expect(prius.odometer).toBe(15)
   })
   it('driving returns the update odometer', () => {
+    // testing the return value of the method
     // you
   })
 })

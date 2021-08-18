@@ -5,7 +5,12 @@ function badCar() {
   }
 }
 
-class Car {}
+/**
+ * Car class
+ */
+class Car {
+
+}
 
 module.exports = {
   badCar,

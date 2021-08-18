@@ -39,8 +39,9 @@ describe('Car class', () => {
     expect(prius).toHaveProperty('make')
     expect(prius).toHaveProperty('model')
     // assert that it has certain props with certain values...
-    expect(prius).toHaveProperty('make', '')
-    expect(prius).toHaveProperty('model')
+    expect(prius).toHaveProperty('make', 'toyota')
+    expect(prius).toHaveProperty('model', 'prius')
     // assert that it is an object of a certain shape...
+    expect(prius).toEqual({ })
   })
 })

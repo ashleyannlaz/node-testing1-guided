@@ -42,6 +42,6 @@ describe('Car class', () => {
     expect(prius).toHaveProperty('make', 'toyota')
     expect(prius).toHaveProperty('model', 'prius')
     // assert that it is an object of a certain shape...
-    expect(prius).toEqual({ })
+    expect(prius).toEqual({ make: 'toyota', model: 'prius' })
   })
 })

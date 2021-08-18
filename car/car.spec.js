@@ -18,3 +18,8 @@ describe('badCar', () => { // describe (just for organizing)
   })
 })
 
+describe('Car class', () => {
+  it('exists', () => {
+    expect(Car).toBeDefined()
+  })
+})

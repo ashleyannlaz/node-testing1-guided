@@ -9,9 +9,9 @@ function badCar() {
  * Car class
  */
 class Car {
-  constructor() {
-    this.make = 'toyota'
-    this.model = 'prius'
+  constructor(make, model) {
+    this.make = model
+    this.model = make
   }
 }
 

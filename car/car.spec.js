@@ -23,6 +23,7 @@ describe('Car class', () => {
   beforeEach(() => {
     prius = new Car('toyota', 'prius')
   })
+  beforeAll()
   it('exists', () => {
     // with TDD
     // 1- write the simplest test that will fail
@@ -53,7 +54,6 @@ describe('Car class', () => {
     // 1- simplest test that will fail
     // 2- least amount of code that passes the test
     // 3- refactor
-    const car = new Car('Kia', 'Spectra')
-    expect(car.odometer).toBe(0)
+    expect(prius.odometer).toBe(0)
   })
 })

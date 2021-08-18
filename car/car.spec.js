@@ -1,4 +1,4 @@
-const { badCar } = require('./car')
+const { badCar, Car } = require('./car')
 
 test('that it werkz', () => { // this is a test
   // empty test is a FALSE POSITIVE

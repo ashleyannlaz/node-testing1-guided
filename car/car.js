@@ -5,8 +5,9 @@ function badCar() {
   }
 }
 
-
+class Car {}
 
 module.exports = {
   badCar,
+  Car,
 }

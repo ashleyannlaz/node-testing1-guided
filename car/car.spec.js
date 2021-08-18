@@ -50,6 +50,7 @@ describe('Car class', () => {
   it('new cars have an "odometer" prop initialized at zero', () => {
     // 1- simplest test that will fail
     // 2- least amount of code that passes the test
+    // 3- refactor
     const car = new Car('Kia', 'Spectra')
     expect(car.odometer).toBe(0)
   })

@@ -72,6 +72,6 @@ describe('Car class', () => {
   })
   it('driving returns the update odometer', () => {
     // testing the return value of the method
-    // you
+    expect(prius.drive(10)).toEqual(10)
   })
 })

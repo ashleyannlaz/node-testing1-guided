@@ -48,8 +48,9 @@ describe('Car class', () => {
     expect(prius).toMatchObject({ make: 'toyota', model: 'prius' }) // better
   })
   it('new cars have an "odometer" prop initialized at zero', () => {
-    // you!
     // 1- simplest test that will fail!
+    // 2- 
     const car = new Car('Kia', 'Spectra')
+    expect(car.odometer).toBe(0)
   })
 })

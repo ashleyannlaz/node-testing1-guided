@@ -15,6 +15,5 @@ describe('badCar', () => { // describe (just for organizing)
     // comparing expected against actual
     expect(actualValue).toEqual(expectedValue) // same shape
     expect(actualValue).toBe(actualValue2) // same thing
-
   })
 })

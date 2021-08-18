@@ -8,9 +8,7 @@ function badCar() {
 /**
  * Car class
  */
-class Car {
-
-}
+class Car {}
 
 module.exports = {
   badCar,

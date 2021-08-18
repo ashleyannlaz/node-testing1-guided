@@ -15,7 +15,7 @@ class Car {
     this.make = make
   }
   drive(distance) {
-    this.odometer = this.odometer + distance
+    this.odometer+= distance
   }
 }
 

@@ -9,12 +9,12 @@ test('that it werkz', () => { // this is a test
 describe('badCar', () => { // describe (just for organizing)
   it('returns a toyota', () => { // test
     const actualValue = badCar()
-    const 
+    const actualValue2 = actualValue
     const expectedValue = { make: 'toyota', model: 'prius' }
 
     // comparing expected against actual
     expect(actualValue).toEqual(expectedValue) // same shape
-    expect(actualValue).toBe(expectedValue) // same shape
+    expect(actualValue).toBe(actualValue2) // same thing
 
   })
 })
